@@ -1,0 +1,35 @@
+{
+  "name": "lexicon-mcp-server",
+  "version": "1.0.0",
+  "description": "Lexicon Comparison Intelligence MCP Server",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "lexicon-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "comparison",
+    "intelligence",
+    "PESTLE",
+    "research",
+    "enterprise",
+    "B2B"
+  ],
+  "author": "Lexicon Intelligence <hello@dbssearch.today>",
+  "license": "MIT",
+  "homepage": "https://dbssearch.today",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nadine302324-commits/lexicon-mcp-server"
+  }
+}
