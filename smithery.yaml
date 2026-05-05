@@ -1,0 +1,24 @@
+name: lexicon
+  displayName: Lexicon Comparison Intelligence
+  description: Live comparison intelligence for autonomous agents. Retrieves evidence from 20 independent sources, applies PESTLE Triangulation, Head-to-Head VS, and Deep Research frameworks.
+  version: 1.0.0
+  license: MIT
+  homepage: https://dbssearch.today
+  startCommand:
+    type: stdio
+    configSchema:
+      type: object
+      properties:
+        apiKey:
+          type: string
+          description: Lexicon API key (optional — free tier available without key)
+    commandFunction: |-
+      (config) => ({
+        command: "node",
+        args: ["index.js"],
+        env: {
+          LEXICON_API_KEY: config.apiKey || "",
+          LEXICON_BASE_URL: "https://dbssearch.today"
+        }
+      })
+  
