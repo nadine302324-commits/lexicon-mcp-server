@@ -31,5 +31,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/nadine302324-commits/lexicon-mcp-server"
-  }
+  },
+  "mcpName": "io.github.nadine302324-commits/lexicon"
 }
